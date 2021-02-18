@@ -1,0 +1,22 @@
+{
+    "name": "stacy/test_unit_php_v1",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "stacy perales",
+            "email": "stacy.perales@ynov.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
